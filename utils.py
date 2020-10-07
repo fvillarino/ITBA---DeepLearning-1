@@ -34,7 +34,8 @@ class Person():
     
 class Student(Person):
     def __init__(self, fname, lname, age, legajo, direccion='No indica'):
-        super().__init__(fname, lname, age, direccion='No indica')
+        #super().__init__(fname, lname, age, direccion='No indica')
+        super(fname, lname, age, direccion='No indica')
         self.legajo = legajo
     
     def print_student_name(self):
